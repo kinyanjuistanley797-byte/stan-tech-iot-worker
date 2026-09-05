@@ -1,5 +1,5 @@
 name = "stan-tech-iot-worker"
-main = "src/index.js"
+main = "index.js"
 compatibility_date = "2024-09-01"
 
 # Secrets (NOT stored here — set via `wrangler secret put NAME` so they
