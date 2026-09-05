@@ -1,0 +1,11 @@
+name = "stan-tech-iot-worker"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+# Secrets (NOT stored here — set via `wrangler secret put NAME` so they
+# never appear in this file or get committed anywhere):
+#   GOOGLE_CLIENT_EMAIL   -> from your service account JSON: "client_email"
+#   GOOGLE_PRIVATE_KEY    -> from your service account JSON: "private_key"
+#   EMQX_API_KEY          -> App ID from EMQX Cloud
+#   EMQX_API_SECRET       -> App Secret from EMQX Cloud
+#   EMQX_API_URL          -> e.g. https://d01018f1.ala.eu-central-1.emqxsl.com:8443
